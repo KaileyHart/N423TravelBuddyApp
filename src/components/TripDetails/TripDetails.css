@@ -1,0 +1,174 @@
+h2 {
+  margin-top: -100px;
+  text-align: left;
+  padding-left: 50px;
+  font-size: 36px;
+  color: #373539;
+}
+.TripDetailsHeaderContainer {
+  height: 200px;
+  max-width: auto;
+}
+
+.TripDetailsHeader {
+  background-color: white;
+  height: 170px;
+  max-width: auto;
+  background-image: url('../../assets/MainHeader.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.TripDetails {
+  background-color: whitesmoke;
+padding-bottom: 100px;
+}
+
+.TripDetailsButtons {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.TripDetailsDetails {
+  background-color: #fff;
+  height: auto;
+  width: 275px;
+  margin-top: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+}
+
+.TripDetailsButtons button img {
+  background-color: #fff;
+  border: none;
+  height: 40px;
+  width: auto;
+}
+
+.TripDetailsButtons Link {
+  background-color: white;
+  border: none;
+}
+
+.TripDetailsButtons button {
+  background-color: #373539;
+  border-radius: 18px;
+border: none;
+  width: 150px;
+  height: 40px;
+}
+
+.TripDetailsButtons button a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.TripTitle h1 {
+  font-size: 24px;
+  text-align: left;
+  color:#101022;
+}
+
+.TripTitle p {
+  color: #101022;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 0px;
+}
+
+.TripTitle {
+  display: flex;
+  flex-direction: column;
+}
+.TripImg {
+  margin: 0 auto;
+}
+
+.TripImg img {
+  padding-top: 0px;
+  width: 275px;
+  height: 260px;
+  border-radius: 5px;
+}
+
+.TripPeopleLocationRating {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.TripPeople {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+}
+
+.TripPeople h1 {
+  color: #373539;
+  font-size: 18px;
+}
+
+.TripPeople p {
+  color: #23233C;
+  font-size: 16px;
+  padding-right: 0px;
+}
+
+.TripLocationRating {
+  display: flex;
+  flex-direction: column;
+  max-width: 125px;
+}
+
+.TripLocation h1 {
+  font-size: 18px;
+  color: #373539
+}
+
+.TripDescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.TripDescription h1 {
+  font-size: 18px;
+  color: #373539;
+}
+
+.TripDescription p {
+  font-size: 16px;
+  color: #23233C;
+}
+
+.TripAdditionalPhotos {
+  display: flex;
+  flex-direction: column;
+}
+
+.TripAdditionalPhotos h1 {
+  font-size: 18px;
+  color: #373539;
+}
+
+.TripAdditionalPhotos {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.TripAdditionalPhotos img {
+  padding-top: 0px;
+  width: 275px;
+  height: 260px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

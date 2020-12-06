@@ -1,0 +1,76 @@
+.TripLibrary {
+  background-color: whitesmoke;
+ height: 2000px;
+}
+
+h2 {
+  margin-top: -100px;
+  text-align: left;
+  padding-left: 50px;
+  font-size: 36px;
+  color: #373539;
+}
+.TripLibraryHeaderContainer {
+  height: 200px;
+  max-width: auto;
+}
+
+.TripLibraryHeader {
+  background-color: white;
+  height: 170px;
+  max-width: auto;
+  background-image: url('../../assets/MainHeader.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.TripContainer {
+  background-color: white;
+  width:275px;
+  height: 365px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.TripContainer h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #373539;
+  text-transform: capitalize;
+  text-align: left;
+  text-decoration: none;
+
+}
+.TripContainer p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #373539;
+  text-align: left;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+.TripContainer img {
+  height: 250px;
+  width: 265px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.Trips {
+  max-height: 4000px;
+}
+
+Link {
+  text-decoration: none;
+}
+
+#trip {
+  text-decoration: none;
+}

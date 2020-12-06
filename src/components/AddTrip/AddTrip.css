@@ -1,0 +1,85 @@
+
+.TripLibrary {
+  background-color: whitesmoke;
+}
+
+h2 {
+  margin-top: -100px;
+  text-align: left;
+  padding-left: 50px;
+  font-size: 36px;
+  color: #373539;
+}
+.TripLibraryHeaderContainer {
+  height: 200px;
+  max-width: auto;
+}
+
+.TripLibraryHeader {
+  background-color: white;
+  height: 170px;
+  max-width: auto;
+  background-image: url('../../assets/MainHeader.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.AddTrip {
+  background-color: whitesmoke;
+}
+
+.AddTripInputs {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding-top: 20px;
+}
+
+.AddTripInputs input {
+  margin: 0 auto;
+  height: 55px;
+  padding-left: 50px;
+  width: 200px;
+  border: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #23233c;
+  box-shadow: 0px 5px 10px rgba(126, 126, 126, 0.3);
+}
+
+.AddTripInputs input:focus {
+  outline: none;
+}
+
+.AddTripInputs #description {
+  height: 170px;
+}
+.AddTripInputs #featureImg {
+  background-color: #fff;
+}
+.AddTripInputs #imgs {
+  background-color: #fff;
+}
+
+.AddTripInputs input[type='file'] {
+}
+.AddTripButton {
+  margin: 0 auto;
+  background-color: whitesmoke;
+  margin-bottom: 130px;
+}
+
+.AddTripButton button {
+  background-color: #101022;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 18px;
+  border: none;
+  height: 55px;
+  width: 260px;
+  margin-top: 20px;
+}

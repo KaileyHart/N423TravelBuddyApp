@@ -1,0 +1,81 @@
+.DeleteAccount {
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 250px;
+}
+
+h2 {
+  color: #23233c;
+  font-size: 40px;
+  margin-top: -110px;
+
+  padding-bottom: 50px;
+}
+
+.DeleteAccountHeaderContainer {
+  height: 200px;
+  max-width: auto;
+}
+
+.DeleteAccountHeader {
+  background-color: white;
+  height: 200px;
+  max-width: auto;
+  background-image: url('../../assets/MainHeader.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.DeleteAccountButtonContainer {
+  margin-top: 50px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 270px;
+  height: 145px;
+}
+
+.DeleteAccountButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.DeleteAccountButtons button:hover {
+  cursor: pointer;
+}
+p {
+  color: #23233c;
+  font-size: 18px;
+}
+
+.DeleteAccountButtonContainer #yes {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #c30000;
+  border-radius: 18px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 19px;
+}
+.DeleteAccountButtonContainer #no {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #0d9b0c;
+  border-radius: 18px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 19px;
+}

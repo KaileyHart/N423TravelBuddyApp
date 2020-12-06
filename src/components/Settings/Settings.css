@@ -1,0 +1,106 @@
+h2 {
+  margin-top: -100px;
+  text-align: left;
+  padding-left: 50px;
+  font-size: 36px;
+  color: #373539;
+}
+h3 {
+  padding-top: 20px;
+  margin: 0 auto;
+  font-weight: 500;
+  text-align: center;
+  font-size: 24px;
+  color: #373539;
+}
+
+.Settings {
+  background-color: whitesmoke;
+}
+.SettingsHeaderContainer {
+  height: 200px;
+  max-width: auto;
+}
+
+.SettingsHeader {
+  background-color: white;
+  height: 170px;
+  max-width: auto;
+  background-image: url('../../assets/MainHeader.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Settings {
+  background-color: whitesmoke;
+}
+
+.SettingsButtons {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.SettingsButtons button {
+  margin: 0 auto;
+  width: 250px;
+  height: 55px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #23233c;
+  box-shadow: 0px 5px 10px rgba(126, 126, 126, 0.3);
+}
+.SettingsButtons .link {
+  margin: 0 auto;
+}
+
+.SettingsButtons #top {
+  margin-top: -25px;
+}
+
+.SettingsButtons #delete {
+  color: #fff;
+  padding-bottom: 0px;
+  margin-bottom: 150px;
+}
+.SettingsButtons #changeView {
+  box-shadow: 0px 5px 10px rgba(126, 126, 126, 0.3);
+  background-color: #fff;
+  width: 230px;
+  height: 130px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.SettingsButtons #changeView p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.SettingsButtons #changeView .SettingsButtons__Views {
+  display: flex;
+  flex-direction: row;
+}
+
+.SettingsButtons #changeView .SettingsButtons__Views button {
+  border-radius: 5px;
+  border: 1px solid rgb(224, 224, 224);
+  width: 45px;
+  height: 45px;
+  box-shadow: 0px 10px 10px whitesmoke;
+  font-size: 20px;
+}
+
+.SettingsButtons #delete {
+  background-color: #c30000;
+}
+
+.SettingsButtons #changeView p {
+  font-size: 18px;
+  color: #23233c;
+}

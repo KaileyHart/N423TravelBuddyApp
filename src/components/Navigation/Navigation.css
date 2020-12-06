@@ -1,0 +1,95 @@
+.Navigation {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color: white;
+  text-align: center;
+}
+.Navigation ul {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+
+  border-top: 1px solid rgba(126, 126, 126, 0.6);
+  border-radius: 35px 35px 0 0;
+}
+
+img {
+  padding-top: 10px;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+}
+p {
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+ul #list {
+  border-left: none;
+}
+ul #plus {
+  border-left: 1px solid rgba(126, 126, 126, 0.6);
+  border-right: 1px solid rgba(126, 126, 126, 0.6);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ul #settings {
+  border-left: none;
+}
+
+ul li {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ul li .link {
+  color: #000;
+  text-decoration: none;
+}
+
+.NavLinks {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+  margin-top: -50px;
+  
+}
+
+.NavLink {
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #101022;
+  color: #fff;
+  border: none;
+  width: 125px;
+  height: 30px;
+  border-radius: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+
+}
+
+.Nav {
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+
+}
