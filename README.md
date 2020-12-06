@@ -1,6 +1,6 @@
 # Travel Buddy Mobile CRUD Application with Authentication
  N423 Mobile CRUD App - Final Project
- [Firebase Link](https://tripjournal-293122.web.app/)
+ [Firebase Link](https://tripjournal-293122.web.app/signup)
  
  This application allows users to sign up, login, and logout with an email and password. If they forgot their password, they can retrieve it through email. Once logged in, users can also change their password or delete their account.
  
